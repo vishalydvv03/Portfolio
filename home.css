@@ -1,0 +1,126 @@
+*   {
+        padding:0;
+        margin:0;
+        font-family:'Josefin Sans',sans-serif;
+        box-sizing:border-box;
+    }
+.home
+{
+    height :100vh;
+    width: 100%;
+    background-image: url('Images/Local\ Digital\ Marketing.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+h1
+    {
+        color:white;
+        font-size:50px;
+        text-align:center;
+        position:absolute;
+        top:40%;
+        left:30%;
+        animation: text 8s;
+        overflow: hidden;
+        white-space: nowrap;
+        width:22ch;
+    }
+
+#navigation 
+    {
+        position: absolute;
+        top:5%;
+        left:2%;
+    }
+#navigation a{
+    margin :15px;
+    padding :10px 20px;
+    border-radius:30px;
+}
+.color
+    {
+        color:#fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: small;
+    }
+.color:hover{
+    background-color: #f9004d;
+}
+#social 
+    {
+        position:absolute;
+        top:73%;
+        left:43%;
+    }
+#social a
+{
+    padding:15px;
+}
+#social .sm:hover{
+    transition: 1s;
+    transform:scale(1.3);
+}
+.box
+{
+    color:whitesmoke;
+    position:absolute;
+    top:52%;
+    left:44%;
+    opacity: 0;
+    font-size:32px;
+}
+.b1
+{
+    animation : anim1 14s infinite;
+    animation-delay: 4s;
+}
+.b2
+{
+    position:absolute;
+    top:52%;
+    left:42%;
+    animation : anim2 14s infinite;
+
+}
+@keyframes text{
+    0%
+    {
+        width:0ch;
+    }
+    100%
+    {
+        width:22ch;
+    }
+}
+
+@keyframes anim1
+{
+    0%
+    {
+        opacity:0;
+    }
+    10%
+    {
+        opacity:1;
+    }
+    40%
+    {
+        opacity :0;
+    }
+}
+@keyframes anim2
+{
+    60%
+    {
+        opacity:0;
+    }
+    85%
+    {
+        opacity:1;
+    }
+    100%
+    {
+        opacity:0;
+    }
+}
